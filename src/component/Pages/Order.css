@@ -1,0 +1,59 @@
+.order-page {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .order-page h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    margin-left: 1px;
+    padding: 1px 16px;
+    height: 100px;
+    display:'table-cell';
+    width:60vw;
+    box-sizing: border-box;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+  }
+  
+  table td input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    text-align: center;
+  }
+  
+  table td input[type="number"]:focus {
+    outline: none;
+    border-color: #dd09ec;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #e40deb;
+    color: #0feddb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    height: 30px;
+    
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #69dd16;
+  }

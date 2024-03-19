@@ -1,0 +1,19 @@
+/* Breadcrumb.css */
+
+.breadcrumb {
+  background-color: #f8f9fa;
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  display: flex; /* Display items horizontally */
+  font-weight: bold;
+}
+
+.breadcrumb-item {
+  margin-right: 5px;
+  list-style: none; /* Remove default list styles */
+}
+
+.breadcrumb-item.active {
+  color: #007bff;
+}
